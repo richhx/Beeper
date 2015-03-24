@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" layout="BoxLayout" boxLayoutAxis="Y" title="Beeper" >
+  <component type="TextField" name="Duration" cloudBoundProperty="text" cloudDestinationProperty="Duration" text="Duration" >
+  </component>
+  <component type="Container" name="Grid" cloudDestinationProperty="Grid" layout="GridLayout" gridLayoutRows="3" gridLayoutColumns="3" >
+    <component type="Container" name="Blank" cloudDestinationProperty="Blank" >
+    </component>
+    <component type="Button" name="Up" cloudDestinationProperty="Button" text="+" >
+      <custom name="maskName" type="java.lang.String" value="" />
+    </component>
+    <component type="Container" name="Blank" cloudDestinationProperty="Blank" >
+    </component>
+    <component type="Button" name="Left" cloudDestinationProperty="Left" text="&lt;" >
+    </component>
+    <component type="Button" name="Center" cloudDestinationProperty="Play" uiid="Button" text="O" >
+    </component>
+    <component type="Button" name="Right" cloudDestinationProperty="Button" text="&gt;" >
+      <custom name="maskName" type="java.lang.String" value="" />
+    </component>
+    <component type="Container" name="Blank" cloudDestinationProperty="Blank" >
+    </component>
+    <component type="Button" name="Down" cloudDestinationProperty="Down" text="-" >
+    </component>
+  </component>
+  <component type="Button" name="Save" cloudDestinationProperty="Save" uiid="GreenButton" text="Save" >
+  </component>
+  <component type="Button" name="Load" cloudDestinationProperty="Load" uiid="RedButton" text="Load" >
+  </component>
+</component>

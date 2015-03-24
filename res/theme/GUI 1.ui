@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Dialog" name="GUI 1" cloudDestinationProperty="SaveDialog" >
+  <component type="Label" name="Label" cloudDestinationProperty="Label" text="Saved!" >
+  </component>
+</component>
